@@ -1,0 +1,11 @@
+{
+  "name": "handle-url",
+  "version": "1.0.0",
+  "description": "处理url参数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "evendetail",
+  "license": "ISC"
+}
