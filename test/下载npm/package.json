@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue-rate-components": "^1.0.3"
+    "handle-url-even": "^1.0.1"
   }
 }

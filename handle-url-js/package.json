@@ -1,6 +1,6 @@
 {
-  "name": "handle-url",
-  "version": "1.0.0",
+  "name": "handle-url-even",
+  "version": "1.0.1",
   "description": "处理url参数",
   "main": "index.js",
   "scripts": {
