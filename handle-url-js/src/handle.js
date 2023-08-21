@@ -3,6 +3,8 @@
 // version: 1.0.0
 // 1chenxueweiB
 
+let handleURL = new HandleURL();
+
 module.exports = class HandleURL {
 	constructor() { }
 	/**
