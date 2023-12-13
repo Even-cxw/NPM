@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="box"></div>
+  <script src="./index.js"></script>
+  <script>
+    let animation = new AnimationHelp('dom', {
+      jsonData: [
+    {
+      "name": "ic_voice_01",
+      "x": 0,
+      "y": 0,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "name": "ic_voice_02",
+      "x": 0,
+      "y": 61,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "name": "ic_voice_03",
+      "x": 61,
+      "y": 0,
+      "width": 60,
+      "height": 60
+    }
+  ],
+    imageUrl:"./static/ic_voice.png"
+    }, 300)
+
+  </script>
+</body>
+</html>
