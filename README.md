@@ -8,27 +8,27 @@ author: Even
 - 包作者：evendetail
 
 - 查看当前环境下的用户
-```javascript
+```sh
 npm whoami
 ```
 
 - npm登录
-```js
+```sh
 npm adduser
 ```
 
 - 发包命令
-```javascript
+```sh
 npm publish
 ```
 
 - 查看包版本
-```javascript
+```sh
 npm view vue-rate-compontents version
 ```
 
 - 更新自己发版的npm包
-```javascript
+```sh
 npm uninstall vue-rate-compontents
 npm install vue-rate-compontents
 ```

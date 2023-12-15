@@ -1,8 +1,15 @@
 
 ## 账号注册
-
+- 客户端
+- 管理端
 
 ## 配置环境
+1. 设置npm源
+2. 查看终端是否支持vpn
+3. 配置代理
+4. 命令
+
+
 ```sh
 // 查看npm源
 npm config list
@@ -18,7 +25,7 @@ npm config set registry https://registry.npmjs.org
 图片1
 可以测试下`终端`是否支持翻墙
 ```sh
-// 随便找个国外网站
+// 找个国外网站
 curl www.google.com
 ```
 图片2
