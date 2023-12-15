@@ -21,6 +21,16 @@ npm config set registry https://registry.npmjs.org
 ```
 
 
+title: 终端配置代理
+管理端（终端） - 要在国外镜像发包
+- 终端的行为和网络请求是独立的，即使开了VPN，终端本身并不会跟随翻墙
+- 所以终端也需要连接vpn
+
+npm login - 报错
+
+或者连接 curl www.google.com
+
+
 - `npm login` 坑 => 报错 timeout
 图片1
 可以测试下`终端`是否支持翻墙
