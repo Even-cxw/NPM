@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="./node_modules/even-demo2/index.js"></script>
+  <script>
+    class Report extends Component {
+
+      constructor() {
+        super(this)
+      }
+
+      willMount() {
+        console.log('willMount')
+      }
+
+      didMount() {
+        console.log('didMount')
+      }
+
+      render() {
+        return 1111
+      }
+
+    }
+    new Report();
+  </script>
+</body>
+</html>
